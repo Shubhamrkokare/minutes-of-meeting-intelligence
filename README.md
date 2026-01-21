@@ -119,6 +119,17 @@ Minutes of Meetings/
 - Run metadata & artifact tracking
 
 ---
+# 🔗 Model Weights
+The fine-tuned LoRA weights are not stored directly in the repository.
+
+📦 **Download here:**  
+https://github.com/Shubhamkokare/minutes-of-meeting-intelligence/releases
+
+After downloading:
+```bash
+unzip bart-dialogsum-lora-model.zip
+mv bart_dialogsum_lora models/
+
 
 ## ⚙️ Setup Instructions
 
