@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+
+# Run artifacts
+runs/
+
+# Audio files
+*.mp3
+*.wav
+
+# Model weights (DO NOT COMMIT)
+*.pt
+*.bin
+*.safetensors
+models/
+whisper_models/
+runs/
+.venv/
+venv/
+
+# Whisper models
+whisper_models/
+
+# Large trained models
+models/bart_dialogsum_lora/
+
+# OS files
+.DS_Store
+Thumbs.db
